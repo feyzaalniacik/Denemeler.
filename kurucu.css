@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    /* background-image: img("MarkaLogosu.png"); */
+    background-color:#BFB3A4 ;
+	font-family: Arial;
+	margin:0;
+	padding: 10px;
+}
+header{
+    position:sticky;
+	background-color:#94BF8E;
+	padding:10px;
+    font-family: 'Estonia', cursive;
+    font-size: em;
+}
+header h1{
+    font-family: 'Estonia', cursive;
+    letter-spacing: 2px;
+	text-align: center;
+	font-size:60px;
+	color:#262626;
+	margin: 2px 0px;
+}
+header img{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+}
+img:hover{
+	opacity: 0.9;
+}
+div{
+    background-color:seashell;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    position:sticky;
+    text-align: center;
+}
+div p{
+    border-width: 10px;
+    border-style:ridge;
+    border-color: black;
+}
+.container{
+    background-color: black;
+    color: seashell;
+    padding: 10px;
+    border-width: 10px;
+    border-style:solid;
+    border-radius: em;
+    border-color: seashell;
+}
+table{
+    justify-content:center;
+    background-color: #A2D99A;
+    color: black;
+    font-size: rem;
+    margin: em;
+    padding: em;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+    margin-left: 100px;
+}
